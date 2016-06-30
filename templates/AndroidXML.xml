@@ -1,0 +1,58 @@
+<templateSet group="AndroidXML">
+  <template name="+id" value="android:id=&quot;@+id/$ID$&quot;" description="android:id=&quot;@+id/&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="@s" value="@string/$string_resource$" description="@string/" toReformat="false" toShortenFQNames="true">
+    <variable name="string_resource" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="@d" value="@drawable/$drawable_resource$" description="@drawable/" toReformat="false" toShortenFQNames="true">
+    <variable name="drawable_resource" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="@c" value="@color/$color_resource$" description="@color/" toReformat="false" toShortenFQNames="true">
+    <variable name="color_resource" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="string" value="&lt;string name=&quot;$name$&quot;&gt;$value$&lt;/string&gt;" description="string resource item" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="color" value="&lt;color name=&quot;$name$&quot;&gt;#$value$&lt;/color&gt;" description="add a new color resource item" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="item" value="&lt;item name=&quot;$name$&quot;&gt;$value$&lt;/item&gt;" description="item tag" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
