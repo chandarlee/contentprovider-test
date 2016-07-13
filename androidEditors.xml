@@ -4,6 +4,7 @@
       <GlobalState>
         <option name="hideForNonLayoutFiles" value="false" />
         <option name="showDeviceFrames" value="false" />
+        <option name="visible" value="false" />
       </GlobalState>
     </option>
   </component>
