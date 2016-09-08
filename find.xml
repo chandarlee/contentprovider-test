@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File 'D:\AndroidCode\YXCode\YX_RTC\src\im\yixin\plugin\voip\VoipCommander.java'" />
-    <option name="defaultScopeName" value="File 'D:\AndroidCode\YXCode\YX_RTC\src\im\yixin\plugin\voip\VoipCommander.java'" />
+    <option name="customScope" value="File 'D:\AndroidCode\YXCode\YX_RTC\src\im\yixin\plugin\voip\activity\VoipActivity.java'" />
+    <option name="defaultScopeName" value="File 'D:\AndroidCode\YXCode\YX_RTC\src\im\yixin\plugin\voip\activity\VoipActivity.java'" />
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="File 'D:\AndroidCode\YXCode\YX_RTC\src\im\yixin\plugin\voip\VoipCommander.java'" />
+    <option name="SEARCH_SCOPE" value="File 'D:\AndroidCode\YXCode\YX_RTC\src\im\yixin\plugin\voip\activity\VoipActivity.java'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
